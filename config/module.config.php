@@ -14,6 +14,7 @@ return array(
             'ztbicon'            => 'ZfcTwitterBootstrap\View\Helper\Icon',
             'ztbimage'           => 'ZfcTwitterBootstrap\View\Helper\Image',
             'ztblabel'           => 'ZfcTwitterBootstrap\View\Helper\Label',
+            'ztbnavigation'      => 'ZfcTwitterBootstrap\View\Helper\Navigation',
             'ztbwell'            => 'ZfcTwitterBootstrap\View\Helper\Well',
             'ztbformwysihtml5'   => 'ZfcTwitterBootstrap\Form\View\Helper\FormWysihtml5',
             'ztbtranslate'       => 'ZfcTwitterBootstrap\I18n\View\Helper\ZtbTranslate',

@@ -53,6 +53,9 @@ Features
   * FormElement
   * FormDescription
   * FromWysihtml5 (wysihtml5 text editor)
+* Navigation Integration
+  * Breadcrumbs
+  * Menu
 * View Helpers
   * Alerts
   * Badges
@@ -74,9 +77,9 @@ Roadmap
 * Icons - Completed basic view helper
 * Image - Completed basic view helper
 * Labels - Completed basic view helper
-* Wells - Completed basic viewhelper
+* Wells - Completed basic view helper
 * WYSIHTML5 - Completed basic integration with translation helper
-* Zend\Navigation - See current pull request.
+* Zend\Navigation - Completed basic integration
 
 Form Usage
 ----------
@@ -235,6 +238,14 @@ Label Usage
     // explicit types: info, important, inverse, success, warning
     echo $this->ztbLabel()->info('This is a label');
     ?>
+
+
+Navigation Usage
+----------------
+
+    <?php
+    echo $this->ztbnavigation()->ztbmenu($navContainer);
+    echo $this->ztbnavigation()->ztbbreadcrumbs($navContainer);
 
 Well Usage
 -----------
